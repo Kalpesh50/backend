@@ -6,6 +6,7 @@ const router = require("./routes/router");
 const cors = require("cors");
 const cookiParser = require("cookie-parser")
 const port = process.env.PORT || 3000;
+const FRONTEND_URL = process.env.FRONTEND_URL;
 
 
 // app.get("/",(req,res)=>{
